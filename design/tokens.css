@@ -1,0 +1,112 @@
+:root {
+  /* Colors (Figma Collection: Music Corner — Colors) */
+  --color-background: #F7F4EE;
+  --color-surface: #FFFFFF;
+  --color-text-primary: #202322;
+  --color-text-secondary: #606762;
+  --color-action-primary: #245C4C;
+  --color-accent-decorative: #B69A65;
+
+  /* Typography Font Families */
+  --font-heading: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Typography Scale (Size / Line Height / Weight) */
+  /* Display: 55px / 55px / 600 */
+  --font-size-display: 3.4375rem; /* 55px */
+  --line-height-display: 55px;
+  --font-weight-display: 600;
+
+  /* Page Title: 45px / 43px / 700 */
+  --font-size-page-title: 2.8125rem; /* 45px */
+  --line-height-page-title: 43px;
+  --font-weight-page-title: 700;
+
+  /* Section Title: 35px / 43px / 700 */
+  --font-size-section-title: 2.1875rem; /* 35px */
+  --line-height-section-title: 43px;
+  --font-weight-section-title: 700;
+
+  /* Card Title: 30px / 34px / 700 */
+  --font-size-card-title: 1.875rem; /* 30px */
+  --line-height-card-title: 34px;
+  --font-weight-card-title: 700;
+
+  /* Subtitle: 24px / 30px / 700 */
+  --font-size-subtitle: 1.5rem; /* 24px */
+  --line-height-subtitle: 30px;
+  --font-weight-subtitle: 700;
+
+  /* Item: 20px / 34px / 700 */
+  --font-size-item: 1.25rem; /* 20px */
+  --line-height-item: 34px;
+  --font-weight-item: 700;
+
+  /* Small Heading: 18px / 34px / 700 */
+  --font-size-small-heading: 1.125rem; /* 18px */
+  --line-height-small-heading: 34px;
+  --font-weight-small-heading: 700;
+
+  /* Body Large: 18px / 30px / 400 */
+  --font-size-body-large: 1.125rem; /* 18px */
+  --line-height-body-large: 30px;
+  --font-weight-body-large: 400;
+
+  /* Body: 16px / 30px / 400 */
+  --font-size-body: 1rem; /* 16px */
+  --line-height-body: 30px;
+  --font-weight-body: 400;
+
+  /* Supporting: 16px / 24px / 400 */
+  /* CONFIRM: Supporting line height is auto in Figma, standard baseline set to 24px */
+  --font-size-supporting: 1rem; /* 16px */
+  --line-height-supporting: 24px;
+  --font-weight-supporting: 400;
+
+  /* Button: 14px / 1 / 700 */
+  --font-size-button: 0.875rem; /* 14px */
+  --line-height-button: 1;
+  --font-weight-button: 700;
+
+  /* Form Label: 14px / 20px / 600 */
+  --font-size-form-label: 0.875rem; /* 14px */
+  --line-height-form-label: 20px;
+  --font-weight-form-label: 600;
+
+  /* Meta: 12px / 16px / 400 */
+  --font-size-meta: 0.75rem; /* 12px */
+  --line-height-meta: 16px;
+  --font-weight-meta: 400;
+
+  /* Caption: 10px / 14px / 100 italic */
+  --font-size-caption: 0.625rem; /* 10px */
+  --line-height-caption: 14px;
+  --font-weight-caption: 100;
+  --font-style-caption: italic;
+
+  /* Spacing Scale (from UI Kit) */
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --spacing-12: 48px;
+  --spacing-section-sm: 54px;
+  --spacing-section-md: 69px;
+  --spacing-section-lg: 90px;
+
+  /* Component Heights */
+  --height-button: 48px;
+  /* CONFIRM: Input height is 40px based on auth form inputs (padding 8px 12px + 14px line) */
+  --height-input: 40px;
+
+  /* Border Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  /* CONFIRM: UI Kit notes card radius target 16px; existing card template has 14px */
+  --radius-card: 16px;
+  --radius-lg: 18px;
+  --radius-xl: 35px;
+  --radius-full: 9999px;
+}
